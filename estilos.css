@@ -243,7 +243,7 @@ body.lista .hero > :nth-child(4) { animation-delay: .42s; }
   justify-content: center;
   padding: 80px 12px;
 }
-.detalle { margin: 0 0 14px; font-size: 13px; letter-spacing: 4px; text-transform: uppercase; color: var(--vino); }
+.detalle { font-size: 13px; letter-spacing: 4px; text-transform: uppercase; color: var(--vino); }
 .hero h1 {
   margin: 0;
   max-width: 880px;
@@ -604,7 +604,6 @@ body:not(.sin-scroll) .musica-flotante {
 
 .informacion-importante {
   padding-top: clamp(52px, 8vw, 88px);
-  padding-bottom: clamp(52px, 8vw, 88px);
 }
 
 .informacion-importante > h2 {
